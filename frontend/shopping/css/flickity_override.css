@@ -1,0 +1,39 @@
+/* flickity css override*/
+.gallery {
+  background: none;
+  padding-bottom: 35px;
+  /* border-bottom: 1px solid #EDEDED; */
+  font-size: 1em;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.gallery-cell {
+  width: auto;
+  height: auto;
+  margin-right: 0;
+  background: none;
+  counter-increment: gallery-cell;
+}
+
+.gallery .products_item{
+  margin-right: 20px;
+}
+
+.flickity-page-dots{
+  display: none;
+}
+
+.flickity-prev-next-button{
+  transform: scale(0.6) translate(0,-40px);
+}
+
+@media screen and (max-width: 730px){
+  .products_item{
+    width: 250px;
+    min-width: 100px;
+  }
+
+  .products_item .products_image, .products_item .products_image img{
+    height: 250px;
+  }
+}

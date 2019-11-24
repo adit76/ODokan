@@ -1,0 +1,85 @@
+.banner_container{
+  /* padding-top: 25px; */
+}
+
+.sub_banner{
+  width: 100%;
+  background: whitesmoke;
+  min-height: 100px;
+  position: relative;
+  max-height: 10000px;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  /* background-attachment: fixed !important; */
+  /* background-position: bottom right !important; */
+  padding: 50px 100px;
+  font-family: 'Raleway', sans-serif;
+
+  height: 500px;
+}
+
+.sub_banner .title{
+  font-size: 3.2em;
+  font-weight: bolder;
+}
+
+.sub_banner .sub_title{
+  font-size: 1.3em;
+  max-width: 60%;
+}
+
+.sub_banner_left, .sub_banner_right{
+  box-sizing: border-box;
+  height: 100%;
+  padding-top: 5%;
+}
+
+.sub_banner_right{
+  text-align: right;
+}
+
+.sub_banner_right .sub_title{
+  max-width: 100%;
+  margin-left: 10%;
+}
+
+.sub_banner_left .btn, .sub_banner_right .btn{
+  background: #EFEFEF;
+  border-radius: 0;
+  border: 2px solid #323232;
+  color: black;
+  transition: all 0.3s ease;
+  padding: 15px;
+}
+
+.sub_banner .btn a{
+  text-decoration: none !important;
+  color: initial !important;
+}
+
+
+.sub_banner .btn:hover{
+  background: #0cd4d2;
+  color: white;
+}
+
+/* responsive Banner */
+@media screen and (max-width: 768px){
+  .sub_banner{
+    padding: 20px 50px;
+  }
+
+  .sub_banner .title{
+    font-size: 2em;
+    font-weight: bolder;
+  }
+
+  .sub_banner .sub_title{
+    font-size: 1em;
+    max-width: 100%;
+  }
+
+  .sub_banner{
+    height: 350px;
+  }
+}

@@ -1,0 +1,55 @@
+.footers{padding-top: 50px; font-family: 'PT Sans', sans-serif;background: whitesmoke;box-shadow: 0 -1px 1px 1px #EFEFEF;}
+.footers a {color:#696969;}
+.footers a:hover {border-bottom: 1px dotted black; text-decoration: none;}
+.footers p {color:#696969;}
+.disclaimer small {font-family: 'PT Sans', sans-serif !important;}
+.footers ul {line-height:30px;}
+.disclaimer{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.copyright p{
+  margin: 10px 0 !important;
+}
+.copyright{
+  background: #0cd4d2;
+  color: whitesmoke;
+  font-weight: bolder;
+  letter-spacing: 1px;
+}
+.footers h5{
+  font-weight: bolder;
+}
+#social-fb:hover {
+     color: #3B5998;
+     transition:all .001s;
+ }
+ #social-tw:hover {
+     color: #4099FF;
+     transition:all .001s;
+ }
+ #social-gp:hover {
+     color: #d34836;
+     transition:all .001s;
+ }
+ #social-em:hover {
+     color: #f39c12;
+     transition:all .001s;
+ }
+ #social-li:hover{
+   color: #0077B5;
+   transition: all .001s;
+ }
+
+ .payments_list li{
+   overflow: hidden;
+   margin-right: -15px;
+ }
+
+.payments_list li img{
+  width: 30px;
+}
+
+.payments_list li img:hover{
+  opacity: 0.6;
+}

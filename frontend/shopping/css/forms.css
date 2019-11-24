@@ -1,0 +1,129 @@
+body{
+  background: #d8f1f1;
+}
+
+.signup_form, .login_form{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.signup_form input, .signup_form select, .login_form input, .login_form select{
+  border-radius: 0;
+
+  background: none;
+  border: 0;
+  border-bottom: 1px solid #DEDEDE;
+  padding: 0px;
+  outline: 0;
+  box-shadow: none;
+}
+
+.signup_form input:focus, .signup_form select:focus, .login_form input:focus, .login_form select:focus{
+  box-shadow: none;
+  border-bottom: 1px solid teal;
+  opacity: 0.8;
+}
+
+.signup_form h2, .login_form h2{
+  font-weight: 100;
+}
+
+.form-container{
+  background: #EFEFEF;
+  background: rgb(253, 249, 249);
+  padding: 5px 15px;
+  box-shadow: 0 0 15px 1px #BEBBEB;
+}
+
+.help-block{
+  position: absolute;
+  font-size: 0.6em;
+  margin: 0;
+  padding: 0;
+  padding-top: 2px;
+  padding-left: 2px;
+  visibility: hidden;
+  transform: translate(0, -30px);
+  opacity: 0;
+  transition: all 0.3s ease;
+}
+
+input:focus ~ .help-block{
+  visibility: visible;
+  opacity: 1;
+  transform: translate(0, 0);
+}
+
+input:checked ~ .help-block{
+  visibility: visible;
+  opacity: 1;
+  transform: translate(0, 0);
+}
+
+.help-block i{
+  font-size: 1.5em;
+  font-weight: 700;
+  position: absolute;
+  top: -15px;
+  right: 25px;
+}
+
+.register_button{
+  border-radius: 0;
+  transition: all 0.3s ease;
+  background: teal;
+}
+
+.register_button:hover{
+  transform: translate(0, 3px);
+}
+
+.login_button{
+  border-radius: 0;
+  transition: all 0.3s ease;
+  background: #77aabb;
+}
+
+.login_button:hover{
+  transform: translate(0, 3px);
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  opacity: 0.9;
+  color: black;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  opacity: 0.9;
+  color: black;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  opacity: 0.9;
+  color: black;
+}
+:-moz-placeholder { /* Firefox 18- */
+  opacity: 0.9;
+  color: black;
+}
+
+.footer_links a{
+  font-size: 0.8em;
+}
+
+.signup_form a:hover, .login_form a:hover{
+  border-bottom: 1px dotted #323232;
+  text-decoration: none;
+}
+
+.alt_signup_container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.alt_signup_container .col-sm-6{
+  width: 200px;
+}
+
+.form-horizontal .form-group {
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+}

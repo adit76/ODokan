@@ -1,0 +1,137 @@
+.products_container {
+    /* margin: 10px 50px !important; */
+}
+
+.products_type_title{
+  margin: 0 20px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.products_type_title h1 a{
+  text-decoration: none !important;
+  color: initial;
+}
+
+.products_type_title h1{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.products_type_title hr{
+  width: 30%;
+  border-top: 2px solid teal;
+  float: left;
+  margin-top: -7px;
+  transition: all 0.5s ease;
+}
+
+.products_type_title:hover hr{
+  width: 40%;
+}
+
+.products_type_title .img-responsive{
+  transition: all 0.5s ease;
+}
+
+.products_type_title:hover .img-responsive{
+  opacity: 0.8;
+  transform: scale(1.005) translate(0, 5px);
+}
+
+.products_type_sub_title{
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 2px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.products_type_sub_title h2 a{
+  text-decoration: none !important;
+  color: inherit;
+}
+
+.products_type_sub_title h2{
+  display: inline-block;
+  font-weight: 700;
+  font-size: 1.3em;
+  margin-left: 20px;
+  transition: all 1s ease;
+  cursor: pointer;
+  box-sizing: border-box;
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.products_type_sub_title .products_type_sub_title_name:hover{
+  background: #EFEFEF;
+}
+
+.products_type_sub_title h2 .btn{
+  margin-right: 20px;
+  color: #323232;
+  background: none;
+  border-radius: 0;
+  padding: 5px;
+  background: teal;
+  color: white;
+  transition: all 0.2s ease;
+}
+
+.products_type_sub_title h2 .btn:hover{
+  background: transparent;
+  color: black;
+  opacity: 0.8;
+  transform: translate(5px,0);
+}
+
+.products_container{
+  clear: both;
+}
+
+.pagination_container{
+  padding: 20px 0;
+  text-align: center;
+}
+
+.pagination_container .active a{
+  background: teal;
+  color: white;
+}
+
+.pagination_container .disabled a{
+  opacity: 0.7;
+  color: maroon;
+}
+
+.products_empty{
+  text-align: center;
+  font-size: 0.8em;
+  padding: 20px 0;
+  font-weight: 700 !important;
+}
+
+.products_empty h2{
+  font-weight: 500 !important;
+  font-family: 'Raleway', sans-serif;
+}
+
+@media screen and (max-width: 768px){
+  .products_container {
+      margin: 10px 10px !important;
+  }
+
+  /* .products_type_title{
+    margin: 0 20px;
+  }
+
+  .products_type_sub_title h2{
+    font-weight: 700;
+    margin-left: 20px;
+  } */
+
+  .pagination_container .pagination li a{
+    font-size: 0.8em;
+    padding: 5px;
+  }
+}
